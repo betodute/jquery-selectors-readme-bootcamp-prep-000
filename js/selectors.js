@@ -15,5 +15,5 @@ return $('.pics');
 }
 
 function firstListItem(){
-return $('ul img:pic-list');
+return $('div pic-list:first-child');
 }
