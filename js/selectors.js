@@ -1,9 +1,8 @@
 $(document).ready(
-  function() {
+  function() {});
 
     function paragraphSelector(){
-    var pselect = $('p');
-    return pselect;
+    $('p');
     }
 
     function lastImageSelector(){
@@ -21,4 +20,3 @@ $(document).ready(
     function firstLineItem(){
     $('ul pic-list:first-child');
     }
-});
