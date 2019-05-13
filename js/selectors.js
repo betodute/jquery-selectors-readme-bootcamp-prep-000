@@ -2,7 +2,8 @@ $(document).ready(
   function() {
 
     function paragraphSelector(){
-    $('p');
+    var pselect = $('p');
+    return pselect;
     }
 
     function lastImageSelector(){
