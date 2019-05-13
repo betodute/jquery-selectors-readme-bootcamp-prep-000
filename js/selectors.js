@@ -1,10 +1,10 @@
 $(document).ready(
   function() {
-    paragraphSelector();
+    paragraphSelector()
   });
 
     function paragraphSelector(){
-    $('p');
+    return $('p');
     }
 
     function lastImageSelector(){
