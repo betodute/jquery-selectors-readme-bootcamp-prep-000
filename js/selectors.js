@@ -19,6 +19,6 @@ $(document).ready(
     return $('.pics');
     }
 
-    function firstLineItem(){
+    function firstListItem(){
     return $('ul pic-list:first-child');
     }
