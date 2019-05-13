@@ -1,7 +1,4 @@
-$(document).ready(
-  function() {
-    paragraphSelector()
-  });
+
 
     function paragraphSelector(){
     return $('p');
